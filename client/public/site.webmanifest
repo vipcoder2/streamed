@@ -1,0 +1,47 @@
+
+{
+  "name": "StreamSport - Free Live Sports Streaming",
+  "short_name": "StreamSport",
+  "description": "Watch free live sports streaming online. Football, basketball, cricket, tennis and more sports available 24/7.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#011412",
+  "theme_color": "#1e40af",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-US",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/android-chrome-512x512.png", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["sports", "entertainment", "news"],
+  "screenshots": [
+    {
+      "src": "/screenshot-wide.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshot-narrow.jpg", 
+      "sizes": "750x1334",
+      "type": "image/jpeg",
+      "form_factor": "narrow"
+    }
+  ]
+}

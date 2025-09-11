@@ -1,0 +1,43 @@
+
+User-agent: *
+Allow: /
+
+# Allow all search engines to crawl the entire site
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*?*utm_*
+
+# Sitemap location
+Sitemap: https://streamed.pk/sitemap.xml
+
+# Crawl delay for courtesy (removed invalid syntax)
+Crawl-delay: 1
+
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Social media crawlers
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+# Block unwanted bots
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
